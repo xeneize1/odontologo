@@ -28,8 +28,16 @@ export default function App() {
       {/* Hero */}
       <section className="bg-blue-600 text-white text-center py-16 px-4">
         <h2 className="text-3xl font-bold mb-4">Sonríe con Confianza</h2>
-        <p className="text-lg">Ofrecemos atención odontológica de alta calidad para toda la familia.</p>
-        <button className="mt-6 bg-white text-blue-600 font-semibold px-4 py-2 rounded hover:bg-gray-100">Pedí tu turno</button>
+        <p className="text-lg mb-6">Ofrecemos atención odontológica de alta calidad para toda la familia.</p>
+        {/*<button className="mt-6 bg-white text-blue-600 font-semibold px-4 py-2 rounded hover:bg-gray-100">Pedí tu turno</button>*/}
+        <a
+          href="https://wa.me/5492614601970?text=Hola%2C+quisiera+pedir+un+turno+para+la+cl%C3%ADnica+odontol%C3%B3gica"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white text-lg font-medium py-3 px-6 rounded-xl shadow-md"
+        >
+          Pedir turno por WhatsApp
+        </a>
       </section>
 
       {/* Servicios */}
