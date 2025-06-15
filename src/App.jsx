@@ -89,6 +89,24 @@ export default function App() {
         </div>
       </section>
 
+ <section className="mt-16 px-4 text-center">
+        <h3 className="text-3xl font-semibold mb-4">Dónde Estamos</h3>
+        <p className="mb-4">Visitanos en nuestra clínica ubicada en San José Guaymallén, a pocos minutos del centro de Mendoza.</p>
+        <div className="w-full h-96">
+          <iframe
+            title="Ubicación Clínica Odontológica Mendoza"
+            /*src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.3521357302955!2d-68.84405582496377!3d-32.89018366949992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0970579fb36d%3A0x7dc678b561fdd10!2sMendoza!5e0!3m2!1ses!2sar!4v1717440000000!5m2!1ses!2sar"*/
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.583725225602!2d-68.8112661!3d-32.8827317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e092cb597cc4f%3A0x5464ae249be71848!2sConsultorio%20Dental%20Escobar!5e0!3m2!1ses-419!2sar!4v1749984068587!5m2!1ses-419!2sar"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
       {/* Contacto */}
       <section id="contacto" className="py-12 px-4 bg-gray-50">
         <h3 className="text-2xl font-bold text-center mb-6">Contacto</h3>
