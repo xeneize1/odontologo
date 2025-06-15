@@ -14,8 +14,8 @@ export default function App() {
     </div>*/
     <div className="font-sans text-gray-800">
       {/* Header */}
-      <header className="bg-white shadow p-4 flex justify-between items-center flex-wrap gap-4 md:gap-0">
-        <h1 className="text-xl font-bold text-blue-600">Clínica Odontológica</h1>
+      <header className="bg-blue-50 shadow p-4 flex justify-between items-center flex-wrap gap-4 md:gap-0">
+        <h1 className="text-xl font-bold text-blue-600">Clínica Odontológica Mendoza</h1>
         <nav className="w-full md:w-auto">
           <ul className="flex flex-col md:flex-row gap-4 text-sm items-center justify-center">
             <li><a href="#servicios" className="hover:text-blue-600">Servicios</a></li>
@@ -23,12 +23,20 @@ export default function App() {
             <li><a href="#contacto" className="hover:text-blue-600">Contacto</a></li>
           </ul>
         </nav>
+        <a
+          href="https://wa.me/5492614601970?text=Hola%2C+quisiera+pedir+un+turno+para+la+cl%C3%ADnica+odontol%C3%B3gica"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg shadow"
+        >
+          Pedir turno
+        </a>
       </header>
 
       {/* Hero */}
       <section className="bg-blue-600 text-white text-center py-16 px-4">
-        <h2 className="text-3xl font-bold mb-4">Sonríe con Confianza</h2>
-        <p className="text-lg mb-6">Ofrecemos atención odontológica de alta calidad para toda la familia.</p>
+        <h2 className="text-3xl font-bold mb-4">Bienvenido a Clínica Odontológica Mendoza</h2>
+        <p className="text-lg mb-6">Sonríe con Confianza. Ofrecemos atención odontológica de alta calidad para toda la familia.</p>
         {/*<button className="mt-6 bg-white text-blue-600 font-semibold px-4 py-2 rounded hover:bg-gray-100">Pedí tu turno</button>*/}
         <a
           href="https://wa.me/5492614601970?text=Hola%2C+quisiera+pedir+un+turno+para+la+cl%C3%ADnica+odontol%C3%B3gica"
