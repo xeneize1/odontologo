@@ -21,16 +21,17 @@ export default function App() {
             <li><a href="#servicios" className="hover:text-blue-600">Servicios</a></li>
             <li><a href="#nosotros" className="hover:text-blue-600">Nosotros</a></li>
             <li><a href="#contacto" className="hover:text-blue-600">Contacto</a></li>
-          </ul>
-        </nav>
-        <a
+            <li><a
           href="https://wa.me/5492614601970?text=Hola%2C+quisiera+pedir+un+turno+para+la+cl%C3%ADnica+odontol%C3%B3gica"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg shadow"
         >
           Pedir turno
-        </a>
+        </a></li>
+          </ul>
+        </nav>
+        
       </header>
 
       {/* Hero */}
